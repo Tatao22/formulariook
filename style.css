@@ -1,100 +1,28 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;
-   justify-content:center;
-   min-height: 100vh;
+    margin:auto;
+    padding: 2em;
 }
 
-form{
-    background-color: rgb(238, 238, 223);
-    padding: 50px;
-    width: 420px;
-    text-align: center;
-    box-shadow:0 0 10px  ;
-    }
+h1{
+    color:white;
 
-    form h2{
-        font-size: 25px ;
-        color: rgb(18, 20, 20);
-        text-transform: uppercase;
-        margin-bottom: 35px;
-    }
-    .input-container{
-        position: relative;
-    }
+}
 
-    .input-container > i{
-        padding: 14px;
-        border-radius: 50%;
-        background-color: rgb(3, 61, 61);
-        color:aliceblue;
-        position: absolute;
-        font-size: 20px;
-        top: 4px;
-        left: 10px;
-    }
-    .input-container > input {
-        padding: 17px 15px 17px 65px;
-        width: 100;
-        margin-bottom: 25px;
-        border-radius: 35px;
-        background-color: transparent;
-        border:  2px solid#cbcbcb;
-        font-size: 16px;
-        outline: none;
-        color: black;
-    }
-    ::placeholder{
-        color: #adadad;
-        font-size: 16px;
-    }
-    form a{
-        display: block;
-        color: rgb(7, 5, 122);
-        font-size: 15px;
-        text-decoration: none;
-        margin-bottom: 25px; 
-    }
+.row{
+    padding: 1rem;
 
-    .btm{
-        background-color: rgb(3, 61, 61);
-        padding : 15px 80px;
-        border: 0;
-        box-shadow:0 0 10px;
-        border-radius: 25px;
-        color: #fff5f5;
-        font-size: 15px;
-        cursor: pointer;
-    }
+}
+.barra{
+    background-color: #ff266e;
 
-    .success{
-        position: absolute;
-        top: 50px;
-        color: chartreuse;
-        font-size: 10px;
-    }
+}
 
-    .error{
-        position: absolute;
-        top: 50px;
-        color: red;
-        font-size: 18px;
-
-    }
-
-    @media(max-width:991px){
-        body{
-            padding:30px;
-        }
-        form{
-            width:340px;
-        }
-    }
+.cajaborde{
+    border-style: solid;
+    border-color: #FF266e;
+    height: 20vh;
+}
